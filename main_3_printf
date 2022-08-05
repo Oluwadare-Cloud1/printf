@@ -1,5 +1,5 @@
 TH _printf 1 "August 5, 2022" "version 1.0" "_printf man page"
-.SH NAM
+.SH NAME
 _printf - format and print data
 .SH SYNOPSIS
 #include <unistd.h> <stdarg.h> <stdlib.h> "main.h"
