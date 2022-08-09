@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_print_char - prints a character
+ * _print_char - prints a character
  *@args: the arguments list
  *Return: 1 (number of chars printed)
  */
@@ -20,6 +20,7 @@ int _print_str(va_list args)
 {
 int count;
 char *str = va_arg(args, char *);
+
 if (str == NULL)
 str = "(null)";
 for (count = 0; str[count]; count++)
